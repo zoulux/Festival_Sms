@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="音乐播放服务"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/id_bt_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="开启音乐播放服务"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/id_bt_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="停止音乐播放服务"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/id_bt_bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="绑定音乐播放服务"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/id_bt_unbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="解绑音乐播放服务"
+        android:textSize="20sp"/>
+
+
+
+</LinearLayout>
+

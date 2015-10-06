@@ -1,0 +1,1 @@
+include ':app', ':zoulux_festival_sms', ':pettracker', ':simplebrodercast', ':notifaction', ':noicon', ':servicemp3', ':surfaceviewplayer', ':eventbusdemo'
